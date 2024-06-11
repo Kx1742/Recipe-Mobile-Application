@@ -64,8 +64,12 @@ The application includes features such as login and register screens, a home scr
 
 ### 🍲 Recipe Details and Actions
 <p align="center">
+  <p align="center">
   <img src="images/recipeScreen.png" alt="Recipe Details and Actions" width="300">
+  </p>
+  <p align="center">
   <img src="images/recipeScreenResult.jpg" alt="Recipe Screen Result" width="300">
+    </p>
 </p>
 
 ### 📂 Own Recipes
