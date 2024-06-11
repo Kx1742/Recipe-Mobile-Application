@@ -38,5 +38,33 @@ The application includes features such as login and register screens, a home scr
 
 ### 👤 Display Profile
 - Users can view their profile information, including their email.
+## Screenshots
 
-![Recipe App Logo](images/welcomeScreen.png)
+### 🔑 Login Screen
+![Login Screen](images/loginScreen.png)
+
+### 🏠 Home Screen
+![Home Screen](images/homeScreen.png)
+
+### 🎉 Welcome Screen
+![Welcome Screen](images/welcomeScreen.png)
+
+### 📋 View Recipe
+![View Recipe Screen 1](images/viewScreen1.png)
+![View Recipe Screen 2](images/viewScreen2.png)
+
+### 🍲 Recipe Details and Actions
+![Recipe Details and Actions](images/recipeScreen.png)
+![Recipe Screen Result](images/recipeScreenResult.jpg)
+
+### 📂 Own Recipes
+![Own Recipes Screen](images/ownRecipeScreen.png)
+
+### ✏️ Update Recipe
+![Update Recipe Screen](images/updateRecipe.png)
+![Success Update Recipe](images/successUpdateRecipe.jpg)
+![Error Update Recipe](images/errorUpdateRecipe.jpg)
+
+### 👤 Profile Screen
+![Profile Screen](images/profileScreen.png)
+
