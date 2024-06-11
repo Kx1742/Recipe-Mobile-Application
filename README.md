@@ -38,33 +38,56 @@ The application includes features such as login and register screens, a home scr
 
 ### 👤 Display Profile
 - Users can view their profile information, including their email.
+
 ## Screenshots
 
 ### 🔑 Login Screen
-![Login Screen](images/loginScreen.png)
+<p align="center">
+  <img src="images/loginScreen.png" alt="Login Screen" width="300">
+</p>
 
 ### 🏠 Home Screen
-![Home Screen](images/homeScreen.png)
+<p align="center">
+  <img src="images/homeScreen.png" alt="Home Screen" width="300">
+</p>
 
 ### 🎉 Welcome Screen
-![Welcome Screen](images/welcomeScreen.png)
+<p align="center">
+  <img src="images/welcomeScreen.png" alt="Welcome Screen" width="300">
+</p>
 
 ### 📋 View Recipe
-![View Recipe Screen 1](images/viewScreen1.png)
-![View Recipe Screen 2](images/viewScreen2.png)
+<p align="center">
+  <img src="images/viewScreen1.png" alt="View Recipe Screen 1" width="300">
+  
+</p>
 
 ### 🍲 Recipe Details and Actions
-![Recipe Details and Actions](images/recipeScreen.png)
-![Recipe Screen Result](images/recipeScreenResult.jpg)
+<p align="center">
+  <img src="images/recipeScreen.png" alt="Recipe Details and Actions" width="300">
+  <img src="images/recipeScreenResult.jpg" alt="Recipe Screen Result" width="300">
+</p>
 
 ### 📂 Own Recipes
-![Own Recipes Screen](images/ownRecipeScreen.png)
+<p align="center">
+  <img src="images/ownRecipeScreen.png" alt="Own Recipes Screen" width="300">
+</p>
 
 ### ✏️ Update Recipe
-![Update Recipe Screen](images/updateRecipe.png)
-![Success Update Recipe](images/successUpdateRecipe.jpg)
-![Error Update Recipe](images/errorUpdateRecipe.jpg)
+<p align="center">
+  <p align="center">
+  <img src="images/updateRecipe.png" alt="Update Recipe Screen" width="300">
+  </p>
+  <p align="center">
+  <img src="images/successUpdateRecipe.jpg" alt="Success Update Recipe" width="300">
+    </p>
+     <p align="center">
+  <img src="images/errorUpdateRecipe.jpg" alt="Error Update Recipe" width="300">
+       </p>
+</p>
 
 ### 👤 Profile Screen
-![Profile Screen](images/profileScreen.png)
+<p align="center">
+  <img src="images/profileScreen.png" alt="Profile Screen" width="300">
+</p>
 
