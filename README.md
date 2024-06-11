@@ -39,6 +39,49 @@ The application includes features such as login and register screens, a home scr
 ### 👤 Display Profile
 - Users can view their profile information, including their email.
 
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager)
+- React Native CLI
+- Android Studio or Xcode (for iOS)
+
+### Installation
+
+1. **Set up the React Native environment:**
+   Follow the official [React Native environment setup guide](https://reactnative.dev/docs/environment-setup) for your operating system.
+
+2. **Create a new React Native project:**
+
+    ```bash
+    npx react-native init RecipeApplication
+    cd RecipeApplication
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+4. **Add the provided screen code to your project:**
+   - Replace the content in the `App.js` file with the provided screen code.
+   - Create necessary component files in the appropriate directories if needed.
+
+5. **Start the React Native project:**
+
+    For iOS:
+    ```bash
+    npx react-native run-ios
+    ```
+
+    For Android:
+    ```bash
+    npx react-native run-android
+    ```
+    
 ## Screenshots
 
 ### 🔑 Login Screen
