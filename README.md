@@ -1,79 +1,140 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Recipe Application
 
-# Getting Started
+Recipe application is a mobile application developed using React Native that allows users to create, view, update, and delete their own recipes. Users can also view other recipes from the website and watch cooking lessons by simply clicking on the link to YouTube.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+The application includes features such as login and register screens, a home screen, recipe search by categories, detailed recipe views, a feedback screen, and a calories screen to help calculate calories based on activities and weight.
 
-## Step 1: Start the Metro Server
+## Key Features
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### 🔑 Login and Register User Account
+- Users can navigate to the login and register screens and perform the login and registration functions.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### 🔍 Search Recipe
+- Users can search for recipes by entering keywords in the search bar. The app will fetch and display matching recipes based on the user’s input.
 
-```bash
-# using npm
-npm start
+### 📂 Browse Recipe by Categories
+- Users can find recipes by browsing through different food categories.
 
-# OR using Yarn
-yarn start
-```
+### 🍽️ Get Recipe of the Day
+- Users can get a random recipe of the day by tapping the “Get Recipe of the Day” button.
 
-## Step 2: Start your Application
+### 📄 View Recipe
+- Users can view the selected recipe on the Home Screen.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### 📝 Submit Feedback
+- Users can submit feedback using a form with fields for their name, email address, the type of feedback, and remarks.
 
-### For Android
+### 🍲 Display Own Recipes
+- Users can view their own recipes stored in the SQLite database.
 
-```bash
-# using npm
-npm run android
+### ❌ Delete Recipes
+- Users can delete recipes by pressing a "Delete" button. The app will first ask for confirmation before deleting the recipe from the database.
 
-# OR using Yarn
-yarn android
-```
+### ➕ Create Recipe
+- Users can input and create a new recipe with a unique recipe ID, name, and description. The system will insert the new recipe into the database and update the instance variable of the OwnRecipeScreen.
 
-### For iOS
+### ✏️ Update Recipe
+- Users can update the details of a recipe, including its name and description. The app will validate the input fields before allowing an update. The database operation will update the recipe where the recipeName, recipeDescription, and recipeID match the user's input.
 
-```bash
-# using npm
-npm run ios
+### 👤 Display Profile
+- Users can view their profile information, including their email.
 
-# OR using Yarn
-yarn ios
-```
+## Getting Started
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### Prerequisites
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+- Node.js
+- npm (Node Package Manager)
+- React Native CLI
+- Android Studio or Xcode (for iOS)
 
-## Step 3: Modifying your App
+### Installation
 
-Now that you have successfully run the app, let's modify it.
+1. **Set up the React Native environment:**
+   Follow the official [React Native environment setup guide](https://reactnative.dev/docs/environment-setup) for your operating system.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+2. **Create a new React Native project:**
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+    ```bash
+    npx react-native init RecipeApplication
+    cd RecipeApplication
+    ```
 
-## Congratulations! :tada:
+3. **Install dependencies:**
 
-You've successfully run and modified your React Native App. :partying_face:
+    ```bash
+    npm install
+    ```
 
-### Now what?
+4. **Add the provided screen code to your project:**
+   - Replace the content in the `App.js` file with the provided screen code.
+   - Create necessary component files in the appropriate directories if needed.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+5. **Start the React Native project:**
 
-# Troubleshooting
+    For iOS:
+    ```bash
+    npx react-native run-ios
+    ```
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+    For Android:
+    ```bash
+    npx react-native run-android
+    ```
+    
+## Screenshots
 
-# Learn More
+### 🔑 Login Screen
+<p align="center">
+  <img src="images/loginScreen.png" alt="Login Screen" width="300">
+</p>
 
-To learn more about React Native, take a look at the following resources:
+### 🏠 Home Screen
+<p align="center">
+  <img src="images/homeScreen.png" alt="Home Screen" width="300">
+</p>
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+### 🎉 Welcome Screen
+<p align="center">
+  <img src="images/welcomeScreen.png" alt="Welcome Screen" width="300">
+</p>
+
+### 📋 View Recipe
+<p align="center">
+  <img src="images/viewScreen1.png" alt="View Recipe Screen 1" width="300">
+  
+</p>
+
+### 🍲 Recipe Details and Actions
+<p align="center">
+  <p align="center">
+  <img src="images/recipeScreen.png" alt="Recipe Details and Actions" width="300">
+  </p>
+  <p align="center">
+  <img src="images/recipeScreenResult.jpg" alt="Recipe Screen Result" width="300">
+    </p>
+</p>
+
+### 📂 Own Recipes
+<p align="center">
+  <img src="images/ownRecipeScreen.png" alt="Own Recipes Screen" width="300">
+</p>
+
+### ✏️ Update Recipe
+<p align="center">
+  <p align="center">
+  <img src="images/updateRecipe.png" alt="Update Recipe Screen" width="300">
+  </p>
+  <p align="center">
+  <img src="images/successUpdateRecipe.jpg" alt="Success Update Recipe" width="300">
+    </p>
+     <p align="center">
+  <img src="images/errorUpdateRecipe.jpg" alt="Error Update Recipe" width="300">
+       </p>
+</p>
+
+### 👤 Profile Screen
+<p align="center">
+  <img src="images/profileScreen.png" alt="Profile Screen" width="300">
+</p>
+
